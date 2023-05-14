@@ -1,6 +1,7 @@
 package art.lab;
 
 import art.lab.exampleStruct.SomeBean;
+import art.lab.myStruct.Warrior;
 import art.lab.task.Injector;
 
 public class Main {
@@ -13,5 +14,16 @@ public class Main {
         injector.setFileName("files/exampleProperties/second.properties");
         sb = injector.inject(new SomeBean());
         sb.foo();
+
+
+
+        injector.setFileName("files/myProperies/lightEquipmentKit.properties");
+        Warrior warrior = injector.inject(new Warrior());
+        System.out.println(warrior.Fight());
+
+        injector.setFileName("files/myProperies/heavyEquipmentKit.properties");
+        warrior = injector.inject(new Warrior());
+        System.out.println(warrior.Fight());
+
     }
 }
