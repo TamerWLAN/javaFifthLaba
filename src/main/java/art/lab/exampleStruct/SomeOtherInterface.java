@@ -1,6 +1,6 @@
 package art.lab.exampleStruct;
 
-public interface SomeOtherInterface {
-    public void doSomeOther();
+interface SomeOtherInterface {
+    void doSomeOther();
 
 }
