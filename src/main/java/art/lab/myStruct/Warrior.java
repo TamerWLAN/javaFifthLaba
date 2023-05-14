@@ -9,7 +9,7 @@ public class Warrior {
     @AutoInjectable
     private Shield shield;
 
-    public String Fight() {
+    public String fight() {
         return weapon.shot() + "\n" + shield.protect();
     }
 }

@@ -19,11 +19,11 @@ public class Main {
 
         injector.setFileName("files/myProperies/lightEquipmentKit.properties");
         Warrior warrior = injector.inject(new Warrior());
-        System.out.println(warrior.Fight());
+        System.out.println(warrior.fight());
 
         injector.setFileName("files/myProperies/heavyEquipmentKit.properties");
         warrior = injector.inject(new Warrior());
-        System.out.println(warrior.Fight());
+        System.out.println(warrior.fight());
 
     }
 }
