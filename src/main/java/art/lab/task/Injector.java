@@ -36,7 +36,7 @@ public class Injector {
      * @throws RuntimeException если имя файла не установлено
      * @return объект Properties на основе файла
      */
-    public final @NotNull Properties readPropertiesFile() {
+    private final @NotNull Properties readPropertiesFile() {
         if (fileName == null) {
             throw new RuntimeException("File path must be set");
         }

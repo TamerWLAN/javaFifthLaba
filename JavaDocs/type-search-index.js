@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"art.lab.task","l":"AutoInjectable"},{"p":"art.lab.task","l":"Injector"}];updateSearchResults();
